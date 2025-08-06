@@ -114,7 +114,7 @@ const Hero = () => {
 	 // Animate the video's currentTime property from 0 to its duration as user scrolls
 	 // This creates a "scrubbing" effect where scroll position controls video playback
 	 tl.to(videoRef.current, {
-		currentTime: videoRef.current.duration, // Animate to the end of the video
+		currentTime: videoRef.currentduration, // Animate to the end of the video
 	 });
 	};
  }, []);

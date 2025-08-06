@@ -19,6 +19,11 @@ import { ScrollTrigger, SplitText } from "gsap/all";
 import Navbar from "./components/Navbar.jsx";
 // Import the hero section component
 import Hero from "./components/Hero.jsx";
+import Cocktails from "./components/Cocktails.jsx";
+import About from "./components/About.jsx";
+import Art from './components/Art.jsx';
+import Menu from './components/Menu.jsx';
+import Contact from './components/Contact.jsx';
 
 // Register GSAP plugins for use throughout the application
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -33,6 +38,11 @@ const App = () => {
             <Navbar/>
             {/* Render the hero section with animations */}
             <Hero />
+            <Cocktails/>
+            <About/>
+            <Art/>
+            <Menu/>
+            <Contact/>
             {/* Placeholder section - can be replaced with actual content sections */}
             {/* This div creates a full-height black section for additional content */}
             <div className='h-dvh bg-black '/>
